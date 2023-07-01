@@ -13,17 +13,6 @@ type Player = Int
 type Board = [Piece]
 --}
 
--- The retrofit from BoardOld is a little weird.
--- you should include your own functions here:
--- draw_board
--- is_won
--- is_move_legal
--- make_move
--- boardConvertToMatrix
--- boardConvertToPieces
-
--- add in your own functions
-
 draw_board' :: BoardOld -> String
 -- draw_board' board = undefined 
 draw_board' = drawBoard . bcp
